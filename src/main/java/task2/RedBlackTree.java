@@ -4,7 +4,7 @@ public class RedBlackTree <Key extends Comparable<Key>, Value> {
     // Implement the required properties of a red-black tree
 
     // track the number of iterations needed for the get() operation to complete
-    private int numSteps = 0;
+    public int numSteps = 0;
 
     public Value get(Key key) {
         // implement the actual logic (remove next line)
